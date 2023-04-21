@@ -1,6 +1,8 @@
 import React from "react";
 import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react";
 import childlikenft from "../../img/ChildNFT.png";
+import DgGgF8gD_400x400 from "../../image/DgGgF8gD_400x400.jpg";
+import FtSymgTWIAAYOyu from "../../image/FtSymgTWIAAYOyu.jpg";
 import Image from "next/image";
 
 function NFTDropPage() {
@@ -24,11 +26,22 @@ function NFTDropPage() {
               src="https://links.papareact.com/8sg"
               alt=""
             />
+
+            {/* {<Image
+              className="w-44 rounded-xl object-cover lg:h-96 lg:w-72"
+              src={DgGgF8gD_400x400}
+              alt="Childlike NFT"
+            />} */}
           </div>
           <div className="space-y-2 p-5 text-center">
-            <h1 className="text-4xl font-bold text-white">DOMDDY APES</h1>
+            <h1 className="text-4xl font-bold text-white">
+              PHANTOM APES
+              {/* {Quails NFT} */}
+            </h1>
             <h2 className="text-xl text-gray-300">
-              A collection of Domddy Apes who live and breathe NFT!
+              A collection of Phantom Apes who live and breathe NFT!
+              {/* {Join the egg-citement with Quails. One of the first projects on
+              QuaiNetwork} */}
             </h2>
           </div>
         </div>
@@ -43,9 +56,14 @@ function NFTDropPage() {
             The{" "}
             <span className="font-extrabold underline decoration-pink-600/50">
               {" "}
-              Domddy
+              PHANTOM
             </span>{" "}
             NFT Market Place
+            {/* {<span className="font-extrabold underline decoration-pink-600/50">
+              {" "}
+              Quai
+            </span>{" "}
+            Network} */}
           </h1>
 
           <button
@@ -72,8 +90,14 @@ function NFTDropPage() {
             alt=""
           />
 
-          <h1 className="text-3xl font-bold lg:text-5xl lg:font-extra-bold">
-            The DOMDDY Ape Coding Club | NFT Drop
+          {/* {<Image
+            className="w-60 object-cover pb-10 lg:h-40"
+            src={FtSymgTWIAAYOyu}
+            alt="Childlike NFT"
+          />} */}
+          <h1 className="text-3xl font-bold lg:text-3xl lg:font-extra-bold">
+            The PHANTOM Ape Coding Club | NFT Drop
+            {/* {Crack open a whole new world of creativity and innovation} */}
           </h1>
 
           <p className="pt-2 text-xl text-green-500">13 / 21 NFT's claimed</p>
